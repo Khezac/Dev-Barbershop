@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts - Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome - Icons Lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS - animetion on scroll lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Dev Barbershop - Desenvolvendo sua aparencia</title>
+</head>
+
+<body>
+
+    <div class="bg-home">
+        <header>
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img 
+                        src="./assets/logo.svg"
+                        data-aos="flip-up"
+                        data-aos-delay="400"
+                        data-aos-duration="1500"
+                        alt="header-logo"
+                        />
+                </div>
+                <div data-aos="fade-down">
+                    <a class="header-button"
+                        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                        class="btn-whatsapp" target="_blank">
+                        Agendar Horário
+                    </a>
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" >
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
+                <p>Horário de funcionamento: 09:00 ás 19:00</p>
+                <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"class="button-contact" target="_blank">
+                    Agendar Horario
+                </a>
+            </main>
+        </header>
+    </div>
+
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/images.svg" alt="imagens sobre a barbearia" />
+            </div>
+
+            <div class="about-description" data-aos="zoom-out-left" data-aos-delay="100">
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-content">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+
+        <section class="haircuts">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                <img src="assets/corte1.png" alt="corte de cabelo">
+                <div class="haircut-info">
+                    <strong>Corte normal</strong>
+                    <button>
+                        R$ 45,00
+                    </button>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+                <img src="assets/corte2.png" alt="barba completa">
+                <div class="haircut-info">
+                    <strong>Barba Completa</strong>
+                    <button>
+                        R$ 35,00
+                    </button>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="350">
+                <img src="assets/corte3.png" alt="corte e barba">
+                <div class="haircut-info">
+                    <strong>Corte e barba</strong>
+                    <button>
+                        R$ 85,00
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <div class="services">
+        <h2>Venha conhecer</h2>
+    </div>
+
+    <iframe width="100%"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14767.78040880828!2d-42.5332069!3d-22.2800693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978a6f1b405b13%3A0x94c83fac471fa172!2sFriburgo%20Shopping%20Center!5e0!3m2!1sen!2sbr!4v1707832670349!5m2!1sen!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+        <div class="header-logo">
+            <img src="./assets/logo.svg" alt="footer-logo">
+        </div>
+        <p>Copyright 2023 | Dev Barbershop - Todos direitos reservados.</p>
+    </footer>
+
+    <a 
+        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+        class="btn-whatsapp" 
+        target="_blank"
+        data-aos="zoom-in-up"
+        data-aos-delay="400"
+    >
+        <img src="assets/whatssapp.svg" alt="botão whatsapp">
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+
+</body>
+
+<script src="script.js"></script>
+</html>
